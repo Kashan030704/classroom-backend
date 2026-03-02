@@ -5,7 +5,8 @@ import subjectsRouter from "./routes/subjects";
 
 const app = express();
 const port = 8000;
-//Helloaldjflakdsjflakjd
+
+
 app.use(cors({
   origin: process.env.FRONTEND_URL,
   methods: ['GET', 'POST', 'PUT',  'DELETE'],
